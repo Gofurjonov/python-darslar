@@ -1,16 +1,36 @@
-# This is a sample Python script.
+# import lesson13modul
+# avto1 = lesson13modul.avto_info("Gm", "Malibu", "Qora", "avtomat", 2025, 38000)
+# lesson13modul.info_print(avto1)
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# import lesson13modul as l13mod
+# avto1 = l13mod.avto_info("Gm", "Malibu", "Qora", "avtomat", 2025, 38000)
+# l13mod.info_print(avto1)
 
+# from lesson13modul import avto_info, info_print
+# avto1 = avto_info("Gm", "Malibu", "oq", "avtomat", 2025, 38000)
+# info_print(avto1)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# from lesson13modul import avto_info as ainfo, info_print as iprint
+# avto1 =ainfo("Gm", "Malibu", "Qora", "avtomat", 2025, 38000)
+# iprint(avto1)
 
+# from lesson13modul import *
+# avto1 = avto_info("Gm", "Malibu", "Qora", "avtomat", 2025, 38000)
+# info_print(avto1)
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+# import math
+# x=81
+# print(math.sqrt(x))
+# print(math.pow(5,3))
+# print(math.pi)
+# print(math.log2(8))
+# print(math.log10(100))
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# import  random as r
+# son = r.randint(0,100)
+# print(son)
+
+import random as r
+ismlar = ["olim", "jamshid", "Mirzo", "shoxrux"]
+ism = r.choice(ismlar)
+print(ism)
